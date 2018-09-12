@@ -2,14 +2,16 @@
     border: .5px solid coral;
 }
 body {
-    background-color : #858585;
+   
     font-family : "politica";
 font-style: normal;
 font-weight: 600;
     color: black;
     margin-left: auto;
     margin-right: auto;
-   
+     background-color : #858585;
+    background-image: url(background_p1.jpg);
+     background-repeat: no-repeat;
     
 }
 
@@ -54,13 +56,15 @@ font-weight: 400px;
     display:flex;
     
 }
-.button {
+#button {
     background-color: black;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-top: 580px;
     margin-left:20px;
+    z-index: 30;
+    
 }
 .info-section {
     width: 150px;
