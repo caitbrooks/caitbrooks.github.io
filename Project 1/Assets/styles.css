@@ -1,0 +1,82 @@
+*{
+    border: .5px solid coral;
+}
+body {
+    background-color : #858585;
+    font-family : "politica";
+font-style: normal;
+font-weight: 600;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.container {
+        margin-left: auto;
+        margin-right: auto; 
+        width: 600px;
+        font-family: "politica"; 
+        padding:50px;
+        margin-top:0px
+    
+}
+
+.container h2{
+    font-size: 65px;
+    margin:0px;
+}
+.container h2.1{
+    font-size: 65px;
+    font-family: "politica",sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    margin:0px;
+}
+.container h2.2 {
+    font-size: 100px;
+    font-family: "politica",sans-serif;
+font-style: normal;
+font-weight: 400px;
+ margin:0px;
+}
+
+.letter-container h1{
+    font-size: 500px;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+    justify-content: end;
+    
+    }
+.letter-container {
+    display:flex;
+    
+}
+.button {
+    background-color: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 580px;
+    margin-left:20px;
+}
+.info-section {
+    width: 150px;
+    font-size: 16px;
+
+}
+.sample-set {
+    font-size: 100px;
+     font-family: "politica",sans-serif;
+font-style: normal;
+font-weight: 400;   
+}
+.content {
+    float:left;
+    width: 500px;
+    height: 500px;
+        
+}
+
