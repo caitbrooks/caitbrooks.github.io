@@ -1,6 +1,8 @@
+/*
 *{
     border: .5px solid coral;
 }
+*/
 body {
    
     font-family : "politica";
@@ -10,7 +12,7 @@ font-weight: 600;
     margin-left: auto;
     margin-right: auto;
      background-color : #858585;
-    background-image: url(background_p1.jpg);
+/*    background-image: url(background_p1.jpg);*/
      background-repeat: no-repeat;
     
 }
@@ -25,27 +27,29 @@ font-weight: 600;
     
 }
 
-.container h2{
-    font-size: 65px;
-    margin:0px;
+.bold h2 {
+    font-weight:800;
 }
-.container h2{
-    font-size: 65px;
-    font-family: "politica",sans-serif;
-    font-style: normal;
-    font-weight: 700px;
-    margin:0px;
+.regular h2 {
+    font-weight: 400;
+    
 }
-.container h2 {
-    font-size: 100px;
-    font-family: "politica",sans-serif;
-font-style: normal;
-font-weight: 400px;
- margin:0px;
+.light h2 {
+    font-weight: 100;
 }
-
+.font-box {
+    display:flex;
+    justify-content: space-between;
+}
+.font-box h2 {
+    width: 170px;
+    padding-top: 25px;
+    font-size: 40px;
+    
+}
 .letter-container h1{
     font-size: 500px;
+    font-weight:400;
     width: auto;
     margin: 0px;
     text-align: center;
@@ -54,6 +58,10 @@ font-weight: 400px;
     }
 .letter-container {
     display:flex;
+    position:relative;
+}
+.info-button{
+    margin-top: 187px;
     
 }
 #button {
@@ -61,21 +69,24 @@ font-weight: 400px;
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin-top: 580px;
-    margin-left:20px;
     z-index: 30;
     
 }
 .info-section {
-    width: 150px;
-    font-size: 16px;
+    width: 250px;
 
 }
+.info-section p {
+    font-size:16px;
+    font-weight: 300;
+}
 .sample-set {
-    font-size: 100px;
+    font-size: 35px;
      font-family: "politica",sans-serif;
 font-style: normal;
-font-weight: 400;   
+font-weight: 400; 
+    margin-top: 100px;
+    margin-bottom:100px;
 }
 .content {
     float:left;
@@ -83,6 +94,14 @@ font-weight: 400;
     height: 500px;
         
 }
+.big-flex {
+    display:flex;
+  height: 500px;
+    justify-content: space-between;
+    margin-top:-100px;
+    
+}
+
 /* image analysis*/
 .analysis {
     position:absolute;
@@ -92,4 +111,41 @@ font-weight: 400;
     
     
 }
+/*footer*/
+.footer {
+    display: flex;
+}
 
+
+.footer div {
+    margin-right: 30px;
+}
+
+.flex-2 {
+    display: flex;
+    margin-right:100px;
+    
+}
+.flex-2 h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+} 
+
+
+.flex-2 h5, h6 {
+    margin:0px;
+
+}
+.sources {
+    width: 200px;
+   
+}
+.sources h5 {
+    font-size: 16px;
+    font-weight:100;
+    margin: 0px;
+}
+.sources p {
+    font-size: 16px;
+    font-weight: 200;
+}
