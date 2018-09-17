@@ -102,7 +102,6 @@ font-weight: 400;
     
 }
 
-/* image analysis*/
 .analysis {
     position:absolute;
     z-index: 20;
@@ -111,7 +110,7 @@ font-weight: 400;
     
     
 }
-/*footer*/
+
 .footer {
     display: flex;
 }
@@ -119,6 +118,8 @@ font-weight: 400;
 
 .footer div {
     margin-right: 30px;
+    margin-top: -37px;
+    
 }
 
 .flex-2 {
