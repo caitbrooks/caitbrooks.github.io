@@ -70,7 +70,7 @@ font-weight: 600;
     height: 50px;
     width: 50px;
     z-index: 30;
-    
+    position: relative;
 }
 .info-section {
     width: 250px;
