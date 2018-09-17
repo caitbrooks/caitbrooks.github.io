@@ -12,8 +12,8 @@ font-weight: 600;
     margin-left: auto;
     margin-right: auto;
      background-color : #858585;
-/*    background-image: url(background_p1.jpg);*/
-     background-repeat: no-repeat;
+   background-image: url("project1_background.gif");
+     background-repeat:repeat-x;
     
 }
 
