@@ -61,8 +61,8 @@ font-weight: 600;
     position:relative;
 }
 .info-button{
-    margin-top: 187px;
-    
+    margin-top: 191px;
+    margin-left:-100px;
 }
 #button {
     background-color: black;
