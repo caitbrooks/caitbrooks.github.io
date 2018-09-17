@@ -78,7 +78,7 @@ font-weight: 600;
 }
 .info-section p {
     font-size:16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .sample-set {
     font-size: 35px;
@@ -143,10 +143,10 @@ font-weight: 400;
 }
 .sources h5 {
     font-size: 16px;
-    font-weight:100;
-    margin: 0px;
+    font-weight:400;
+    margin: 22px;
 }
 .sources p {
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
 }
