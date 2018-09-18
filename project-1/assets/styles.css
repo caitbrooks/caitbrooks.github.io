@@ -14,7 +14,9 @@ font-weight: 600;
      background-color : #858585;
 
    background-image: url("project1_background.gif");
-     background-repeat:repeat-x;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position: top;
 
     
 }
@@ -25,7 +27,7 @@ font-weight: 600;
         width: 600px;
         font-family: "politica"; 
         padding:50px;
-        margin-top:0px
+        margin-top:-97px;
     
 }
 
@@ -50,10 +52,11 @@ font-weight: 600;
     
 }
 .letter-container h1{
-    font-size: 500px;
-    font-weight:400;
+    font-size: 600px;
+    font-weight:500;
     width: auto;
     margin: 0px;
+    margin-top: -47px;
     text-align: center;
     justify-content: end;
     
@@ -109,9 +112,9 @@ font-weight: 400;
 
 .analysis {
     position:absolute;
-    z-index: 20;
-    top: 43px;
-    left: 148px;
+    z-index: 999999;
+    top: 122px;
+    left: 0px;
     
     
 }
