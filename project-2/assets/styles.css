@@ -1,0 +1,164 @@
+* {
+    margin:0px;
+    font-weight: 200;
+    
+}
+
+{
+    border:.5px solid coral;
+    }
+
+
+
+body {
+    font-style:normal;
+    color: black;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: "neusa-next-std-compact",sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    
+    
+    }
+    
+
+.header {
+    background-color: antiquewhite;
+    height:600px;
+    margin-top:97px;
+    margin-left:200px;
+    margin-right: 200px;
+    
+}
+.header h1 {
+    margin-left:295px;
+    justify-content: flex-end;
+    align-content: center;
+    
+}
+
+.cloudbox {
+    background-color: lightcyan;
+    justify-content: flex-start;
+    height: 250px;
+    width: 250px;
+
+}
+#mycloud {
+    height: 450px;
+    width: 300px;
+    background-color: purple;
+    color:white;
+    
+}
+
+.sunbutton {
+    position: absolute;
+    left: 1930px;
+    top: 325px;
+    
+}
+
+
+#mysun {
+    height: 450px;
+    width:300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    left: 1600px;
+    bottom: 200px;
+    
+}
+
+.sunbox {
+    background-color: yellow;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 300px;
+    width:400px;
+    justify-content: space-between;
+    position: relative;
+    left: 1600px;
+    bottom: 200px;
+    
+   }
+
+
+
+
+#mywave {
+    height: 450px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+    
+} 
+.wavebutton {
+    position:relative;
+    bottom:400px;
+    left: 300px;
+    
+    
+}
+    
+.waveflex {
+    align-content: center;
+    background-color: blue;
+    height:600px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.sandflex {
+    align-content:center;
+    background-color: beige;
+    height:1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position:relative;
+    z-index: -1;
+}
+.plantsbox {
+    background-color: green;
+    margin-top: auto;
+    height: auto;
+    justify-content: space-between;
+    height: 400px;
+    width: 300px;
+    z-index:1;
+}
+.towelbox {
+    background-color: red;
+    height:400px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top:0px;
+   bottom:300px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.castlebox {
+    background-color: pink;
+    margin-left:auto;
+    margin-top:100px;
+    margin-bottom:25px;
+    height:400px;
+    width:300px;
+    justify-content: space-between;
+    z-index: 1;
+}
+.rockbox {
+    background-color: saddlebrown;
+    margin-top:auto;
+    height:600px;
+    width:300px;
+    margin-left: 2500px;
+    justify-content: space-between;
+    z-index: 1;
+}
