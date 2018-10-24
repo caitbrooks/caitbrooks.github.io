@@ -4,9 +4,7 @@
     
 }
 
-{
-    border:.5px solid coral;
-    }
+
 
 
 
@@ -115,50 +113,118 @@ body {
 }
 
 .sandflex {
-    align-content:center;
     background-color: beige;
-    height:1000px;
+    height:2000px;
     margin-left: 200px;
     margin-right: 200px;
     position:relative;
-    z-index: -1;
+
+}
+
+#myplant {
+    height: 450px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    top: 400px;
+   
 }
 .plantsbox {
     background-color: green;
-    margin-top: auto;
-    height: auto;
-    justify-content: space-between;
+    margin-left: 200px;
     height: 400px;
     width: 300px;
-    z-index:1;
+    position: relative;
+    top:-50px;
+}
+
+.plantbutton {
+    margin-left: 200px;
+    position: relative;
+    bottom: 300px;
+    
+}
+
+#mytowel {
+    height:450px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    top: 400px;
+}
+
+.towelbutton{
+    margin-left: 200px;
+    position: relative;
+    bottom: 500px;
+    top: -750px;
+    left: 606px;
 }
 .towelbox {
     background-color: red;
     height:400px;
     width: 300px;
-    margin-left: 600px;
+    margin-left: 200px;
     margin-top:0px;
-   bottom:300px;
-    justify-content: space-between;
-    z-index: 1;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+   
 }
 
+#mycastle {
+    height:450px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    top: 400px;
+    left:1200px;
+}
+
+.castlebutton {
+   margin-left: 200px;
+    position: relative;
+    bottom: 500px;
+    top: -850px;
+    left: 1200px; 
+}
 .castlebox {
     background-color: pink;
-    margin-left:auto;
-    margin-top:100px;
-    margin-bottom:25px;
-    height:400px;
-    width:300px;
-    justify-content: space-between;
-    z-index: 1;
+    margin-left:200px;
+   height: 400px;
+    width: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 400px;
 }
+
+
 .rockbox {
     background-color: saddlebrown;
-    margin-top:auto;
-    height:600px;
+    height:400px;
     width:300px;
-    margin-left: 2500px;
-    justify-content: space-between;
-    z-index: 1;
+    margin-left: 200px;
+    position: relative;
+    left: 1750px;
+    top: -1030px;
+    
+}
+#myrock {
+    height:450px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    top: 400px;
+    left:1200px;
+}
+.rockbutton {
+    margin-left: 200px;
+    position: relative;
+    bottom: 500px;
+    top: -1300px;
+    left: 1800px;
 }
