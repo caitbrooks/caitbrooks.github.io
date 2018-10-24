@@ -44,8 +44,8 @@ body {
 
 }
 #mycloud {
-    height: 450px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color:white;
     
@@ -60,8 +60,8 @@ body {
 
 
 #mysun {
-    height: 450px;
-    width:300px;
+    height: 300px;
+    width:200px;
     background-color: purple;
     color: white;
     position: relative;
@@ -78,7 +78,7 @@ body {
     width:400px;
     justify-content: space-between;
     position: relative;
-    left: 1600px;
+    left: 600px;
     bottom: 200px;
     
    }
@@ -87,19 +87,19 @@ body {
 
 
 #mywave {
-    height: 450px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: relative;
-    left: 300px;
-    bottom: 400px;
+    left: 600px;
+    bottom: 500px;
     
 } 
 .wavebutton {
     position:relative;
-    bottom:400px;
-    left: 300px;
+    bottom:500px;
+    left: 600px;
     
     
 }
@@ -122,8 +122,8 @@ body {
 }
 
 #myplant {
-    height: 450px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: relative;
@@ -132,23 +132,24 @@ body {
 }
 .plantsbox {
     background-color: green;
-    margin-left: 200px;
+   
     height: 400px;
     width: 300px;
     position: relative;
-    top:-50px;
+    top:-30px;
 }
 
 .plantbutton {
-    margin-left: 200px;
     position: relative;
     bottom: 300px;
+    left: 100px;
+    
     
 }
 
 #mytowel {
-    height:450px;
-    width: 300px;
+    height:300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: relative;
@@ -159,8 +160,8 @@ body {
     margin-left: 200px;
     position: relative;
     bottom: 500px;
-    top: -750px;
-    left: 606px;
+    top: -725px;
+    left: 300px;
 }
 .towelbox {
     background-color: red;
@@ -169,14 +170,14 @@ body {
     margin-left: 200px;
     margin-top:0px;
     position: relative;
-    left: 600px;
-    bottom: 500px;
+    left: 200px;
+    bottom: 450px;
    
 }
 
 #mycastle {
-    height:450px;
-    width: 300px;
+    height:300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: relative;
@@ -213,8 +214,8 @@ body {
     
 }
 #myrock {
-    height:450px;
-    width: 300px;
+    height:300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: relative;
