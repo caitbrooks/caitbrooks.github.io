@@ -26,7 +26,7 @@ body {
     height:600px;
     margin-top:97px;
     margin-left:200px;
-    margin-right: 200px;
+    ;
     
 }
 .header h1 {
@@ -109,14 +109,13 @@ body {
     background-color: blue;
     height:600px;
     margin-left: 200px;
-    margin-right: 200px;
+
 }
 
 .sandflex {
     background-color: beige;
     height:2000px;
     margin-left: 200px;
-    margin-right: 200px;
     position:relative;
 
 }
@@ -127,12 +126,11 @@ body {
     background-color: purple;
     color: white;
     position: relative;
-    top: 400px;
+    top: -395px;
    
 }
 .plantsbox {
     background-color: green;
-   
     height: 400px;
     width: 300px;
     position: relative;
@@ -141,7 +139,7 @@ body {
 
 .plantbutton {
     position: relative;
-    bottom: 300px;
+    bottom: 400px;
     left: 100px;
     
     
@@ -153,14 +151,15 @@ body {
     background-color: purple;
     color: white;
     position: relative;
-    top: 400px;
+    top:-1120px;
+    left: 400px
 }
 
 .towelbutton{
     margin-left: 200px;
     position: relative;
     bottom: 500px;
-    top: -725px;
+    top: -1125px;
     left: 300px;
 }
 .towelbox {
@@ -171,7 +170,7 @@ body {
     margin-top:0px;
     position: relative;
     left: 200px;
-    bottom: 450px;
+    bottom: 750px;
    
 }
 
@@ -209,7 +208,7 @@ body {
     width:300px;
     margin-left: 200px;
     position: relative;
-    left: 1750px;
+    left: 739px;
     top: -1030px;
     
 }
@@ -219,13 +218,13 @@ body {
     background-color: purple;
     color: white;
     position: relative;
-    top: 400px;
-    left:1200px;
+    top:-1300px;
+    left:750px;
 }
 .rockbutton {
     margin-left: 200px;
     position: relative;
     bottom: 500px;
     top: -1300px;
-    left: 1800px;
+    left: 800px;
 }
