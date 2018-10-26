@@ -14,6 +14,13 @@ function sun() {
     } else {
         s.style.display = "none";
     }
+    
+    var sbutton = document.getElementById("sunbutton");
+    if (sbutton.style.backgroundColor === "pink") {
+        sbutton.style.backgroundColor = "green";
+    } else {
+        sbutton.style.backgroundColor = "pink";
+    }
 }
 
 

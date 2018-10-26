@@ -51,6 +51,14 @@ body {
     
 }
 
+
+button {
+    background-color:pink;
+    color:yellow;
+    font-family:"neusa-next-std-compact",sans-serif;
+    font-size:22px;
+    font-weight:700;
+}
 .sunbutton {
     position: absolute;
     left: 1930px;
