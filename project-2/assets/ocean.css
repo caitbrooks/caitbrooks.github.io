@@ -41,7 +41,21 @@ button {
     top: -925px;
     
 }
-
+.title {
+    position: absolute;
+    top:0px;
+    left: 500px;
+    
+}
+.title h1 {
+    font-size:50px;
+    font-weight: 700;
+    font-family: abadi-condensed, sans-serif;
+    font-style: normal;
+    color: red;
+    text-align: center;
+    
+}
 #cloudbutton {
     position: absolute;
     top: 0px;
@@ -60,6 +74,7 @@ button {
     background-color: purple;
     color:white;
     visibility: hidden;
+    z-index: 999;
 
     
 }
@@ -81,6 +96,7 @@ button {
     left: 0px;
     bottom: 0px;
     visibility: hidden;
+    z-index: 999;
     
 }
 .sunbox {
@@ -108,12 +124,14 @@ button {
     left: 0px;
     top: 65px;
     visibility: hidden;
+    z-index: 999;
     
 }
 
 #wavebutton {
     position:absolute;
     left: 0px;
+    z-index: 999;
     
 }
 
@@ -126,12 +144,13 @@ button {
     position: absolute;
     visibility: hidden;
     top: 70px;
+    z-index: 999;
    
 }
 
 #plantbutton {
     position: absolute;
-
+    z-index: 999;
     
     
 }
@@ -151,12 +170,13 @@ button {
     color: white;
     position: absolute;
     visibility: hidden;
+    z-index: 999;
 }
 
    
 .castlebutton {
     position: absolute;
-    
+    z-index: 999;
 }
 
 .castlebox {
@@ -165,7 +185,7 @@ button {
     position: relative;
     left: 440px;
     top: -810px;
-    z-index: 999;
+
     
 }
 #myrock {
@@ -177,11 +197,13 @@ button {
     visibility: hidden;
     top:90px;
     left:0px;
+    z-index: 999;
 }
 .rockbutton {
     position: absolute;
     top: 0px;
     left:0px;
+    z-index: 999;
 }
 .rockbox {
     height:200px;
