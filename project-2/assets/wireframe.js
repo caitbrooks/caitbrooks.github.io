@@ -1,70 +1,48 @@
-function cloud() {
-    var x = document.getElementById("mycloud");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-
-function sun() {
-    var s = document.getElementById("mysun");
-    if (s.style.display === "none") {
-        s.style.display = "block";
-    } else {
-        s.style.display = "none";
-    }
+$(document).ready(function (){
     
-    var sbutton = document.getElementById("sunbutton");
-    if (sbutton.style.backgroundColor === "pink") {
-        sbutton.style.backgroundColor = "green";
-    } else {
-        sbutton.style.backgroundColor = "pink";
-    }
-}
+ $("#cloudbutton").click(function (){
+     $("#mycloud").toggleClass("visible");
+     $("#cloudbutton").toggleClass("green-button");
+ });       
+});
 
+$(document).ready(function (){
+        $("#sunbutton").click(function (){
+     $("#mysun").toggleClass("visible");
+     $("#sunbutton").toggleClass("green-button");
+ });  
+});
 
-function wave() {
-    var w = document.getElementById("mywave");
-    if (w.style.display === "none") {
-        w.style.display = "block";
-    } else {
-        w.style.display = "none";
-    }
-}
+$(document).ready(function (){
+        $("#wavebutton").click(function (){
+     $("#mywave").toggleClass("visible");
+     $("#wavebutton").toggleClass("green-button");
+ });  
+});
 
-function plant() {
-    var p = document.getElementById("myplant");
-    if (p.style.display === "none") {
-        p.style.display = "block";
-    } else {
-        p.style.display = "none";
-    }
-}
+$(document).ready(function (){
+        $("#plantbutton").click(function (){
+     $("#myplant").toggleClass("visible");
+     $("#plantbutton").toggleClass("green-button");
+ });  
+});
 
-function towel() {
-    var t = document.getElementById("mytowel");
-    if (t.style.display === "none") {
-        t.style.display = "block";
-    } else {
-        t.style.display = "none";
-    }
-}
+$(document).ready(function (){
+        $("#towelbutton").click(function (){
+     $("#mytowel").toggleClass("visible");
+     $("#towelbutton").toggleClass("green-button");
+ });  
+});
 
-function castle() {
-    var c = document.getElementById("mycastle");
-    if (c.style.display === "none") {
-        c.style.display = "block";
-    } else {
-        c.style.display = "none";
-    }
-}
-
-function rock() {
-    var r = document.getElementById("myrock");
-    if (r.style.display === "none") {
-        r.style.display = "block";
-    } else {
-        r.style.display = "none";
-    }
-}
+$(document).ready(function (){
+        $("#castlebutton").click(function (){
+     $("#mycastle").toggleClass("visible");
+     $("#castlebutton").toggleClass("green-button");
+ });  
+});
+$(document).ready(function (){
+        $("#rockbutton").click(function (){
+     $("#myrock").toggleClass("visible");
+     $("#rockbutton").toggleClass("green-button");
+ });  
+});

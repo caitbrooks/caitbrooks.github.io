@@ -5,23 +5,27 @@
 </head>
  
     <body>
+        <div class="container">
         <div class="header"><h1>Learn About The Beach</h1>
             
             <div class="cloudbox"><h2>Cloud</h2>
-            <button onclick="cloud()" class="cloudbutton"> Cloud Button
+            <button class="" id="cloudbutton"> Cloud Button
             </button>
             
-                <div id="mycloud" style="display: none">
+                <div id="mycloud" class="">
                 About clouds 
                 </div>
             
             </div>
             
             
-            <div class="sunbox"><h2>Sun</h2></div>
-            <button onclick="sun()" class="sunbutton" id="sunbutton"> Sun Button</button>
+            <div class="sunbox"><h2>Sun</h2>
+            <button  id="sunbutton"> Sun Button</button>
             
-            <div id="mysun" style="display: none">About the Sun</div>
+            <div id="mysun" >About the Sun</div>
+            
+            </div>
+            
                 
                 
            
@@ -33,12 +37,15 @@
         
         
         <div class="waveflex"><h2>Waves</h2>
+                <button id="wavebutton">Wave Button</button>
         
+        <div id="mywave">About the Wave</div>
+            
+            
+            
         </div>
         
-        <button onclick="wave()" class="wavebutton">Wave Button</button>
-        
-        <div id="mywave" style="display: none">About the Wave</div>
+
         
         
        
@@ -54,39 +61,47 @@
         
         
         
-        <div class="plantsbox"><h2>Plants</h2></div>
+        <div class="plantsbox"><h2>Plants</h2>
         
-        <button onclick="plant()" class="plantbutton">Plant Button</button>
+        <button id="plantbutton">Plant Button</button>
         
-        <div id="myplant" style="display: none">About Plants</div>
+        <div id="myplant" >About Plants</div>
+            </div>
             
         
         
         
-        <div class="towelbox"><h2>Towel</h2></div>
+        <div class="towelbox"><h2>Towel</h2>
         
-        <button onclick="towel()" class="towelbutton">Towel Button</button>
+        <button  id="towelbutton">Towel Button</button>
         
-        <div id="mytowel" style="display: none">About the Towel</div>
-        
-           
-        
-        <div clas="castlebox"><h2>Sand Castle</h2></div>
-        
-        <button onclick="castle()" class="castlebutton">Sand Castle Button</button>
-
-        <div id="mycastle" style="display: none">About Sand Castles</div>
+        <div id="mytowel">About the Towel</div></div>
+            
             
         
+        <div class="castlebox"><h2>Sand Castle</h2>
+            
+        <button id="castlebutton">Sand Castle Button</button>
         
-        <div class="rockbox"><h2>Rocks</h2></div>
-        
-        <button onclick="rock()" class="rockbutton">Rock Button</button>
-        
-        <div id="myrock" style="display: none">About Rocks</div>
+        <div id="mycastle">About Sand Castles</div>
             
             </div>
         
+           
+        
+        
+            
+        
+        <div class="rockbox"><h2>Rocks</h2>
+        
+        <button id="rockbutton">Rock Button</button>
+        
+        <div id="myrock" >About Rocks</div>
+            
+            </div>
+        </div>
+        
+    
         
         
         
@@ -96,7 +111,7 @@
         
         
         
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
  <script src="assets/wireframe.js"></script>
     </body>

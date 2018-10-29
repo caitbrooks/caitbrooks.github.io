@@ -11,8 +11,6 @@
 body {
     font-style:normal;
     color: black;
-    margin-left:auto;
-    margin-right: auto;
     font-family: "neusa-next-std-compact",sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -20,38 +18,43 @@ body {
     
     }
     
-
+.container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header {
     background-color: antiquewhite;
-    height:600px;
+    height:;
     margin-top:97px;
-    margin-left:200px;
+    position: relative;
     ;
     
 }
 .header h1 {
-    margin-left:295px;
-    justify-content: flex-end;
-    align-content: center;
+text-align: center;
     
 }
 
 .cloudbox {
     background-color: lightcyan;
-    justify-content: flex-start;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
 
 }
 #mycloud {
-    height: 300px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     color:white;
+    visibility: hidden;
+
     
 }
 
-
+.visible {
+    visibility: visible !important;
+}
 button {
     background-color:pink;
     color:yellow;
@@ -59,35 +62,38 @@ button {
     font-size:22px;
     font-weight:700;
 }
-.sunbutton {
-    position: absolute;
-    left: 1930px;
-    top: 325px;
+
+.green-button {
+    background-color:green;
+    color: blue;
+}
+#sunbutton {
+  position: absolute;
+    top: 0px;
+    z-index: 999;
     
 }
 
 
 #mysun {
-    height: 300px;
-    width:200px;
+    height: 100px;
+    width:100px;
     background-color: purple;
     color: white;
     position: relative;
-    left: 1600px;
-    bottom: 200px;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
     
 }
 
 .sunbox {
     background-color: yellow;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 300px;
-    width:400px;
-    justify-content: space-between;
-    position: relative;
+    height: 150px;
+    width: 150px;
+    position: absolute;
     left: 600px;
-    bottom: 200px;
+    bottom: 0px;
     
    }
 
@@ -95,19 +101,21 @@ button {
 
 
 #mywave {
-    height: 300px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     color: white;
-    position: relative;
-    left: 600px;
-    bottom: 500px;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+    visibility: hidden;
     
-} 
-.wavebutton {
-    position:relative;
-    bottom:500px;
-    left: 600px;
+}
+
+#wavebutton {
+    position:absolute;
+    left: 0px;
+    bottom:200px;
     
     
 }
@@ -116,123 +124,116 @@ button {
     align-content: center;
     background-color: blue;
     height:600px;
-    margin-left: 200px;
+    position:relative;
 
 }
 
 .sandflex {
     background-color: beige;
     height:2000px;
-    margin-left: 200px;
     position:relative;
 
 }
 
 #myplant {
-    height: 300px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     color: white;
-    position: relative;
-    top: -395px;
+    position: absolute;
+    visibility: hidden;
+    top: 70px;
    
 }
 .plantsbox {
     background-color: green;
-    height: 400px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     position: relative;
     top:-30px;
 }
 
-.plantbutton {
-    position: relative;
-    bottom: 400px;
-    left: 100px;
+#plantbutton {
+    position: absolute;
+
     
     
 }
 
 #mytowel {
-    height:300px;
-    width: 200px;
+    height:100px;
+    width: 100px;
     background-color: purple;
     color: white;
-    position: relative;
-    top:-1120px;
-    left: 400px
+    position: absolute;
+    visibility: hidden;
+    top:70px;
+    left:0px
 }
 
 .towelbutton{
-    margin-left: 200px;
-    position: relative;
+    position: absolute;
     bottom: 500px;
     top: -1125px;
     left: 300px;
 }
 .towelbox {
     background-color: red;
-    height:400px;
-    width: 300px;
-    margin-left: 200px;
-    margin-top:0px;
+    height:200px;
+    width: 200px;
     position: relative;
     left: 200px;
-    bottom: 750px;
+    top: -230px;
    
 }
-
 #mycastle {
-    height:300px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     color: white;
-    position: relative;
-    top: 400px;
-    left:1200px;
+    position: absolute;
+    visibility: hidden;
 }
 
+   
 .castlebutton {
-   margin-left: 200px;
-    position: relative;
-    bottom: 500px;
-    top: -850px;
-    left: 1200px; 
+    position: absolute;
+    
 }
+
 .castlebox {
-    background-color: pink;
-    margin-left:200px;
-   height: 400px;
-    width: 300px;
+    background-color: deeppink;
+    height: 200px;
+    width: 200px;
     position: relative;
-    left: 700px;
-    bottom: 400px;
+    left: 400px;
+    top: -430px;
+    z-index: 999;
+    
 }
 
 
 .rockbox {
     background-color: saddlebrown;
-    height:400px;
-    width:300px;
-    margin-left: 200px;
+    height:200px;
+    width:168px;
     position: relative;
-    left: 739px;
-    top: -1030px;
+    left:600px;
+    top: -630px;
     
 }
 #myrock {
-    height:300px;
-    width: 200px;
+    height:100px;
+    width: 100px;
     background-color: purple;
     color: white;
-    position: relative;
-    top:-1300px;
-    left:750px;
+    position: absolute;
+    visibility: hidden;
+    top:90px;
+    left:0px;
 }
 .rockbutton {
-    margin-left: 200px;
-    position: relative;
-    bottom: 500px;
-    top: -1300px;
+    position: absolute;
+    top: 0px;
     left: 800px;
 }
