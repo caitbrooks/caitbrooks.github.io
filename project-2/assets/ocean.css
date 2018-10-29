@@ -114,6 +114,11 @@ button {
     position:relative;
 
 }
+.sandflex{
+    background-color: beige;
+    height:2000px;
+    position:relative;
+}
 #myplant {
     height: 100px;
     width: 100px;
@@ -186,6 +191,5 @@ button {
     width:168px;
     position: relative;
     left:0px;
-    top: -630px;
-    
+    top:-500px;
 }
