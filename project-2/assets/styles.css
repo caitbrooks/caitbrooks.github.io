@@ -107,7 +107,7 @@ button {
     color: white;
     position: absolute;
     left: 0px;
-    bottom: 100px;
+    top: 65px;
     visibility: hidden;
     
 }
@@ -115,7 +115,7 @@ button {
 #wavebutton {
     position:absolute;
     left: 0px;
-    bottom:200px;
+    
     
     
 }
