@@ -22,15 +22,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#mycloud {
-    height: 100px;
-    width: 100px;
-    background-color: purple;
-    color:white;
-    visibility: hidden;
 
-    
-}
 
 .visible {
     visibility: visible !important;
@@ -47,6 +39,28 @@ button {
     background-color:green;
     color: blue;
 }
+
+#cloudbutton {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+}
+.cloudbox {
+    background-color: lightcyan;
+    height: 150px;
+    width: 150px;
+}
+
+#mycloud {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color:white;
+    visibility: hidden;
+
+    
+}
+
 #sunbutton {
   position: absolute;
     top: 0px;
@@ -66,6 +80,17 @@ button {
     visibility: hidden;
     
 }
+.sunbox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+    
+   }
+
+
 #mywave {
     height: 100px;
     width: 100px;
@@ -83,7 +108,12 @@ button {
     left: 0px;
     
 }
+.waveflex {
+    align-content: center;
+    height:600px;
+    position:relative;
 
+}
 #myplant {
     height: 100px;
     width: 100px;
@@ -101,6 +131,14 @@ button {
     
     
 }
+.plantsbox {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:-30px;
+    background-color: green;
+}
+
 
 #mycastle {
     height: 100px;
@@ -116,6 +154,17 @@ button {
     position: absolute;
     
 }
+
+.castlebox {
+    background-color: deeppink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    top: -430px;
+    z-index: 999;
+    
+}
 #myrock {
     height:100px;
     width: 100px;
@@ -129,5 +178,14 @@ button {
 .rockbutton {
     position: absolute;
     top: 0px;
-    left: 800px;
+    left:0px;
+}
+.rockbox {
+    background-color: saddlebrown;
+    height:200px;
+    width:168px;
+    position: relative;
+    left:0px;
+    top: -630px;
+    
 }
