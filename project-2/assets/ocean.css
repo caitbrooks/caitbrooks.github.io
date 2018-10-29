@@ -4,10 +4,6 @@
     
     
 }
-.background {
-  background-position: center;
-    background-attachment: fixed;
-}
 
 body {
     font-family: "abadi-condensed", sans-serif;
@@ -41,20 +37,21 @@ button {
 }
 
 .header {
-    background-color: antiquewhite;
-    height:;
-    margin-top:97px;
-    position: relative; 
+    position: relative;
+    top: -925px;
+    
 }
+
 #cloudbutton {
     position: absolute;
     top: 0px;
     z-index: 999;
 }
 .cloudbox {
-    background-color: lightcyan;
     height: 150px;
     width: 150px;
+    left: 50px;
+    margin-left: 100px;
 }
 
 #mycloud {
@@ -87,7 +84,6 @@ button {
     
 }
 .sunbox {
-    background-color: yellow;
     height: 150px;
     width: 150px;
     position: absolute;
@@ -198,4 +194,10 @@ button {
     position: relative;
     left:0px;
     top:-500px;
+}
+
+.background {
+  background-position: center;
+    background-attachment: fixed;
+    z-index: -999;
 }
