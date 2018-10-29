@@ -40,6 +40,12 @@ button {
     color: blue;
 }
 
+.header {
+    background-color: antiquewhite;
+    height:;
+    margin-top:97px;
+    position: relative; 
+}
 #cloudbutton {
     position: absolute;
     top: 0px;
