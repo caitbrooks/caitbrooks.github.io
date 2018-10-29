@@ -87,12 +87,18 @@ button {
     height: 150px;
     width: 150px;
     position: absolute;
-    left: 600px;
-    bottom: 0px;
+    left: 570px;
+    bottom: -37px;
     
    }
 
-
+.wavebox {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 300px;
+    top: -650px;
+}
 #mywave {
     height: 100px;
     width: 100px;
@@ -133,7 +139,7 @@ button {
     height: 200px;
     width: 200px;
     position: relative;
-    top:-300px;
+    top:-480px;
     left: 50px;
 }
 
@@ -158,7 +164,7 @@ button {
     width: 200px;
     position: relative;
     left: 440px;
-    top: -690px;
+    top: -810px;
     z-index: 999;
     
 }
@@ -181,8 +187,8 @@ button {
     height:200px;
     width:168px;
     position: relative;
-    left:650px;
-    top:-800px;
+    left:600px;
+    top:-920px;
 }
 
 .background {
