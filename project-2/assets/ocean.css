@@ -13,3 +13,121 @@ body {
     font-family: "abadi-condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
+    color:white;
+    
+}
+.container {
+    width: 768px;
+    height:1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mycloud {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color:white;
+    visibility: hidden;
+
+    
+}
+
+.visible {
+    visibility: visible !important;
+}
+button {
+    background-color:pink;
+    color:yellow;
+    font-family:"neusa-next-std-compact",sans-serif;
+    font-size:22px;
+    font-weight:700;
+}
+
+.green-button {
+    background-color:green;
+    color: blue;
+}
+#sunbutton {
+  position: absolute;
+    top: 0px;
+    z-index: 999;
+    
+}
+
+
+#mysun {
+    height: 100px;
+    width:100px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
+    
+}
+#mywave {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    visibility: hidden;
+    
+}
+
+#wavebutton {
+    position:absolute;
+    left: 0px;
+    
+}
+
+#myplant {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top: 70px;
+   
+}
+
+#plantbutton {
+    position: absolute;
+
+    
+    
+}
+
+#mycastle {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+}
+
+   
+.castlebutton {
+    position: absolute;
+    
+}
+#myrock {
+    height:100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top:90px;
+    left:0px;
+}
+.rockbutton {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}

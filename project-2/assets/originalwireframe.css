@@ -1,0 +1,239 @@
+* {
+    margin:0px;
+    font-weight: 200;
+    
+}
+
+
+
+
+
+body {
+    font-style:normal;
+    color: black;
+    font-family: "neusa-next-std-compact",sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    
+    
+    }
+    
+.container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color: antiquewhite;
+    height:;
+    margin-top:97px;
+    position: relative;
+    ;
+    
+}
+.header h1 {
+text-align: center;
+    
+}
+
+.cloudbox {
+    background-color: lightcyan;
+    height: 150px;
+    width: 150px;
+
+}
+#mycloud {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color:white;
+    visibility: hidden;
+
+    
+}
+
+.visible {
+    visibility: visible !important;
+}
+button {
+    background-color:pink;
+    color:yellow;
+    font-family:"neusa-next-std-compact",sans-serif;
+    font-size:22px;
+    font-weight:700;
+}
+
+.green-button {
+    background-color:green;
+    color: blue;
+}
+#sunbutton {
+  position: absolute;
+    top: 0px;
+    z-index: 999;
+    
+}
+
+
+#mysun {
+    height: 100px;
+    width:100px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
+    
+}
+
+.sunbox {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+    
+   }
+
+
+
+
+#mywave {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    visibility: hidden;
+    
+}
+
+#wavebutton {
+    position:absolute;
+    left: 0px;
+    
+    
+    
+}
+    
+.waveflex {
+    align-content: center;
+    background-color: blue;
+    height:600px;
+    position:relative;
+
+}
+
+.sandflex {
+    background-color: beige;
+    height:2000px;
+    position:relative;
+
+}
+
+#myplant {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top: 70px;
+   
+}
+.plantsbox {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:-30px;
+}
+
+#plantbutton {
+    position: absolute;
+
+    
+    
+}
+
+#mytowel {
+    height:100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top:70px;
+    left:0px
+}
+
+.towelbutton{
+    position: absolute;
+    bottom: 500px;
+    top: -1125px;
+    left: 300px;
+}
+.towelbox {
+    background-color: red;
+    height:200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    top: -230px;
+   
+}
+#mycastle {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+}
+
+   
+.castlebutton {
+    position: absolute;
+    
+}
+
+.castlebox {
+    background-color: deeppink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    top: -430px;
+    z-index: 999;
+    
+}
+
+
+.rockbox {
+    background-color: saddlebrown;
+    height:200px;
+    width:168px;
+    position: relative;
+    left:600px;
+    top: -630px;
+    
+}
+#myrock {
+    height:100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    top:90px;
+    left:0px;
+}
+.rockbutton {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
