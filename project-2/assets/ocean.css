@@ -1,11 +1,6 @@
-.body {
-    font-style: normal;
-    color: white;
-    
-    
-}
 
-body {
+
+.body {
     font-family: "abadi-condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -26,9 +21,10 @@ body {
 button {
     background-color:pink;
     color:yellow;
-    font-family:"neusa-next-std-compact",sans-serif;
+   font-family: "abadi-condensed", sans-serif;
+font-weight: 500;
+font-style: normal;
     font-size:22px;
-    font-weight:700;
 }
 
 .green-button {
@@ -39,6 +35,8 @@ button {
 .header {
     position: relative;
     top: -925px;
+    height: 300px;
+    width: 768px;
     
 }
 .title {
@@ -69,8 +67,8 @@ button {
 }
 
 #mycloud {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color:white;
     visibility: hidden;
@@ -88,8 +86,8 @@ button {
 
 
 #mysun {
-    height: 100px;
-    width:100px;
+    height: 300px;
+    width:200px;
     background-color: purple;
     color: white;
     position: relative;
@@ -103,8 +101,8 @@ button {
     height: 150px;
     width: 150px;
     position: absolute;
-    left: 570px;
-    bottom: -37px;
+    left: 5830px;
+    bottom: 108px;
     
    }
 
@@ -116,8 +114,8 @@ button {
     top: -650px;
 }
 #mywave {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: absolute;
@@ -137,13 +135,14 @@ button {
 
 
 #myplant {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: absolute;
     visibility: hidden;
-    top: 70px;
+    top: -124px;
+    left:202px;
     z-index: 999;
    
 }
@@ -164,8 +163,8 @@ button {
 
 
 #mycastle {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: absolute;
@@ -183,14 +182,14 @@ button {
     height: 200px;
     width: 200px;
     position: relative;
-    left: 440px;
+    left: 463px;
     top: -810px;
 
     
 }
 #myrock {
-    height:100px;
-    width: 100px;
+    height:300px;
+    width: 200px;
     background-color: purple;
     color: white;
     position: absolute;
