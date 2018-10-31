@@ -2,7 +2,7 @@
 
 .body {
     font-family: "abadi-condensed", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
     color:white;
     
@@ -19,11 +19,11 @@
     visibility: visible !important;
 }
 button {
-    background-color:pink;
-    color:yellow;
+    background-color:red;
+    color:white;
    font-family: "abadi-condensed", sans-serif;
-font-weight: 500;
-font-style: normal;
+    font-weight: 500;
+    font-style: normal;
     font-size:22px;
 }
 
@@ -47,16 +47,16 @@ font-style: normal;
 }
 .title h1 {
     font-size:50px;
-    font-weight: 700;
-    font-family: abadi-condensed, sans-serif;
+    font-weight: 800;
+    font-family: "abadi-condensed", sans-serif;
     font-style: normal;
     color: red;
     text-align: center;
-    
 }
 #cloudbutton {
     position: absolute;
-    top: 0px;
+    top: 15px;
+    left: 80px;
     z-index: 999;
 }
 .cloudbox {
@@ -67,35 +67,64 @@ font-style: normal;
 }
 
 #mycloud {
-    height: 300px;
-    width: 200px;
+    height: 420;
+    width: 210px;
+    left: -30px;
+    top: -60px;;
     background-color: purple;
     color:white;
     visibility: hidden;
     z-index: 999;
-
+    position: relative;
     
 }
 
+
+#mycloud h2 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+#mycloud h3{
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    
+    
+}
 #sunbutton {
   position: absolute;
-    top: 0px;
+    top: -23px;
     z-index: 999;
     
 }
 
 
 #mysun {
-    height: 300px;
-    width:200px;
+    height: 420px;
+    width:210px;
     background-color: purple;
     color: white;
     position: relative;
-    left: 0px;
+    left: -30px;
     bottom: 0px;
     visibility: hidden;
     z-index: 999;
     
+    
+}
+#mysun h2 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#mysun h3 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
 }
 .sunbox {
     height: 150px;
@@ -114,42 +143,66 @@ font-style: normal;
     top: -750px;
 }
 #mywave {
-    height: 300px;
-    width: 200px;
+    height: 400;
+    width: 210px;
     background-color: purple;
     color: white;
     position: absolute;
-    left: 0px;
-    top: 65px;
+    left: 70px;
+    top: -23px;
     visibility: hidden;
     z-index: 999;
     
 }
 
+#mywave h2 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#mywave h3 {
+   font-family: "abadi-condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+} 
+}
 #wavebutton {
     position:absolute;
     left: 0px;
+    top: -53px;
     z-index: 999;
     
 }
 
 
 #myplant {
-    height: 300px;
-    width: 200px;
+    height: 420px;
+    width: 210px;
     background-color: purple;
     color: white;
     position: absolute;
     visibility: hidden;
-    top: -124px;
-    left:202px;
+    top: -215px;
+    left:175px;
     z-index: 999;
    
 }
-
+#myplant h2 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    
+}
+#myplant h3 {
+    font-family: "abadi-condensed", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
 #plantbutton {
     position: absolute;
     z-index: 999;
+    top: -100px;
     
     
 }
@@ -176,6 +229,7 @@ font-style: normal;
 .castlebutton {
     position: absolute;
     z-index: 999;
+    top: -900px;
 }
 
 .castlebox {
