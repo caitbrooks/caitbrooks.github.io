@@ -263,7 +263,7 @@ button {
     color: white;
     position: absolute;
     visibility: hidden;
-    top:-350px;
+    top:-400px;
     left:-250px;
     z-index: 10;
 }
@@ -278,11 +278,11 @@ button {
     width:168px;
     position: relative;
     left:675px;
-    top:-892px;
+    top:-895px;
 }
 #myrock h2 {
    font-family: "abadi-condensed", sans-serif;
-    font-size: 20px;
+    font-size: 18.5px;
     font-weight: 300; 
 }
 
