@@ -16,6 +16,8 @@
     position: fixed;
     z-index: 2;
     width: 100%;
+    display: flex;
+    flex-direction: row;
     
 }
 
@@ -25,6 +27,8 @@
     font-family: open-sans,sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-right: 20px;
+    
 }
 
 .button{
@@ -51,16 +55,52 @@
     
     
 }
-.projectbox {
+.projectbox1 {
     height: 170px;
     width: 384px;
+    top: 125px;
+    float: left;
    
 }
 
-.descriptionbox {
+.descriptionbox1 h2{
+    font-family: open-sans,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.descriptionbox1 h3{
+    font-family: open-sans,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.descriptionbox1 {
+    display: flex;
+    flex-direction: column;
+    float:left;
+    top: 336px;
+    z-index: 1;
     
     
     
 }
 
+.projectbox2 {
+    
 
+    height: 170px;
+    width: 384px;
+    top: 125px;
+    right:413px;
+    float: right;
+}
+
+)
